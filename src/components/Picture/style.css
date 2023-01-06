@@ -1,0 +1,122 @@
+.good {
+  width: calc(25% - 32px);
+  border: 1px solid #E1E1E1;
+  min-width: 280px;
+  margin-bottom: 40px;
+  margin-right: 5px;
+}
+
+.good-content {
+  margin: 20px 24px 24px 24px;
+  line-height: 200%;
+}
+
+.pic {
+  width: 100%;
+}
+
+.buy-block {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.price-bad {
+  text-decoration: line-through;
+  color: #A0A0A0;
+}
+
+.price-good {
+  font-size: 16px;
+}
+
+.buy-btn {
+  cursor: pointer;
+  background: #382E2B;
+  color: white;
+  height: 48px;
+  width: 118px;
+}
+.buy-btn:hover {
+  background: #776763;
+}
+
+input[type=submit]:hover {
+  background: #776763;
+}
+
+.price-one {
+  height: 24px;
+}
+
+.in-cart-img {
+  margin-right: 4px;
+}
+
+.in-cart {
+  width: 118px;
+  background: #5B3A32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.downloading {
+  background: #555555;
+  padding: 10px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0.6;
+}
+
+.sold-in-auction {
+  opacity: 0.4;
+}
+.sold-in-auction .buy-block {
+  align-items: center;
+}
+
+@media (max-width: 1639px) {
+  .good {
+    width: calc(33% - 24px);
+  }
+}
+@media (max-width: 1229px) {
+  .good {
+    width: calc(50% - 32px);
+  }
+}
+@media (max-width: 819px) {
+  .good {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 350px) {
+  .good {
+    min-width: 0;
+  }
+  .price-bad {
+    font-size: 11px;
+  }
+  .price-good {
+    font-size: 13px;
+  }
+  .buy-btn {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
